@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby where a method with the same name as an instance variable can unintentionally hide the instance variable. The bug occurs when attempting to modify the instance variable through what seems to be a method call. The solution involves renaming the method or providing an explicit setter method.
